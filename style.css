@@ -35,6 +35,7 @@
 }
 .contact img:hover {
   transform: scale(1.3);
+  cursor: pointer;
 }
 .menu {
   /* border: 2px solid black; */
@@ -56,4 +57,11 @@
 .menu:hover {
   background-color: beige;
   color: cornflowerblue;
+}
+.menu div {
+  transition: transform 1s;
+}
+.menu div:hover {
+  transform: scale(1.3);
+  cursor: pointer;
 }
