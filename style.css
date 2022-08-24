@@ -17,8 +17,6 @@
   gap: 27%;
 }
 .container .contact {
-  border: 2px solid red;
-  justify-self: flex-end;
   display: flex;
   flex-wrap: nowrap;
 }
@@ -26,22 +24,36 @@
   width: 4rem;
   height: 100%;
   align-self: flex-end;
-  opacity: 0.6;
+  opacity: 0.8;
+  margin: 0.5rem;
+  transition: transform 1s;
 }
 .logo img {
   width: 4rem;
   height: 100%;
   opacity: 0.9;
 }
+.contact img:hover {
+  transform: scale(1.3);
+}
 .menu {
   /* border: 2px solid black; */
-  background-color: #e0f2f2;
+  background-color: #e3fbfb;
+  border-radius: 7%;
+  box-shadow: 10px, gray;
   display: flex;
   width: auto;
   height: auto;
+  min-height: 120%;
+  padding: 20px;
   text-align: center;
   font-size: 3rem;
   gap: 2.5rem;
   justify-content: center;
+  align-content: center;
   flex-wrap: wrap;
+}
+.menu:hover {
+  background-color: beige;
+  color: cornflowerblue;
 }
